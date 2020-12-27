@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto 12px;
+}
+
+#replay {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 7px;
+  background: #0af;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#replay.hidden {
+  display: none;
+}
+
+#save{
+  display: none;
+  margin: 0 auto;
+  width: 200px;
+  padding: 7px;
+  background: #0af;
+  border-radius: 5px;
+  text-align: center;
+  color: #ff0;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
