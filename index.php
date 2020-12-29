@@ -26,7 +26,7 @@ foreach ($dbh->query($sql) as $row) {
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>ホーム画面</title>
+    <title>ゲーム一覧画面</title>
     <style>
      body{
        text-align: center;
@@ -53,7 +53,7 @@ foreach ($dbh->query($sql) as $row) {
     <p>
         Logged in as <?php echo h($me['name']); ?> (<?php echo h($me['email']); ?>) <a href="logout.php">[logout]</a>
     </p>
-    <h1>ユーザー一覧</h1>
+    <h1>ゲーム一覧</h1>
       <ul>
         <li><a href="ピンポンゲーム/index.php?id=<?php echo h($me['id']); ?>">ピンポンゲーム</a></li>
         <li><a href="数字タッチゲーム/index.php?id=<?php echo h($me['id']); ?>">数字タッチゲーム</a></li>
